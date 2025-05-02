@@ -1,0 +1,54 @@
+/* .horizontal-scroll {
+    padding-top: 90px;
+    margin-top:auto;
+    overflow-x: hidden; 
+    width: 100%; 
+    background-color: #000;
+}
+
+.icon-container {
+    display: flex;
+    animation: scrollAnimation 9s linear infinite; 
+    justify-content: space-around;
+}
+
+.icon-container a {
+
+    color:#1b8a98;
+}
+
+@keyframes scrollAnimation {
+    0% {
+        transform: translateX(100vw);
+    }
+    100% {
+        transform: translateX(-100%); 
+    }
+}
+@media(max-width:500px){
+    .horizontal-scroll {
+        padding-top: 50px;
+        
+    }
+    .icon-container a{
+        font-size: 5px;
+    }
+
+}
+@media(max-width:1000px){
+    .horizontal-scroll {
+        padding-top: 80px;
+    }
+    .icon-container a{
+        font-size: 10px;
+    }
+
+}
+@media(max-width:400px){
+    .horizontal-scroll {
+        padding-top: 60px;
+    }
+    .icon-container a{
+        font-size: 10px;
+    }
+} */

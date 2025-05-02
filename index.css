@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css");
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat','ROboto','Rubik', sans-serif;
+    
+
+}
+:root{
+    
+
+    --hue: 900;
+    --first-color: hsl(var(--hue), 100%,40%);
+    --first-color-alt: hsl(var(--hue),56%,35%);
+    --title-color: hsl(228, 8%, 95%);
+    --text-color: hsl(228, 8%, 65%);
+    --body-color: hsl(228, 15%, 20%);
+    --container-color: hsl(228,15%,15%);
+}
+h1, h2 {
+    font-weight: 700;
+}
+
+footer {
+    width: 100%;
+    background:var(--container-color);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
